@@ -5,8 +5,8 @@
 
 int main(void)
 {
-    char *config_data = NULL;
-    size_t config_size = 0;
+    char *config_data;
+    size_t config_size;
 
     int result = config_read(&config_data, &config_size);
     if (result != 0)
